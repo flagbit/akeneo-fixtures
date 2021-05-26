@@ -1,0 +1,16 @@
+{
+    "name": "mbraeuner/akeneo-fixtures",
+    "description": "Akeneo minimal fixtures with jobs, locale de_DE",
+    "type": "library",
+    "require": {
+        "akeneo/pim-community-dev": ">=4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mbraeuner",
+            "email": "marco.braeuner@flagbit.de"
+        }
+    ],
+    "minimum-stability": "stable"
+}
