@@ -1,5 +1,5 @@
 {
-    "name": "mbraeuner/akeneo-fixtures",
+    "name": "flagbit/akeneo-fixtures",
     "description": "Akeneo minimal fixtures with jobs, locale de_DE",
     "type": "library",
     "require": {
