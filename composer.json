@@ -2,6 +2,7 @@
     "name": "flagbit/akeneo-fixtures",
     "description": "Akeneo minimal fixtures with jobs, locale de_DE",
     "type": "library",
+    "version": "1.0.0",
     "require": {
         "akeneo/pim-community-dev": ">=4"
     },

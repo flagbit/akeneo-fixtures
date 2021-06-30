@@ -1,6 +1,13 @@
 # akeneo-fixtures
 Akeneo minimal fixture with jobs, locale de_DE and currency EUR
 
+## Compatibility
+
+This package supports the latest Akeneo PIM CE/EE stable versions:
+
+* 5.0
+* 4.0
+
 ## Installation
 Add the repository to you `composer.json` if needed.
 ```
