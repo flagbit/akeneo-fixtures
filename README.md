@@ -37,10 +37,19 @@ Add the repository to you `composer.json` if needed.
 - Import jobs 
 - Export Jobs
 
-#### Local installation:
 
-```bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/minimal-jobs-de```
+
+#### Local installation:
+###### CE
+```bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/ce-minimal-jobs-de```
+
+###### EE
+```bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/ee-minimal-jobs-de```
+
 
 #### Installation into Akeneo 5 docker setup:
+###### CE
+```docker-compose run -u www-data --rm fpm bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/ce-minimal-jobs-de```
 
-```docker-compose run -u www-data --rm fpm bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/minimal-jobs-de```
+###### EE
+```docker-compose run -u www-data --rm fpm bin/console pim:installer:db --catalog vendor/flagbit/akeneo-fixtures/fixtures/ee-minimal-jobs-de```
